@@ -9,11 +9,19 @@ namespace dyraid
 {
     public partial class App : Application
     {
+        public static bool IsUserLoggedIn { get; set; }
+
         public App()
         {
-            InitializeComponent();
-
-            MainPage = new dyraid.MainPage();
+            //InitializeComponent();
+            //MainPage = new dyraid.MainPage();
+            
+            if (!IsUserLoggedIn)  {
+                MainPage = new NavigationPage(new dyraid.LoginPage());
+            }
+            else {
+                MainPage = new NavigationPage(new dyraid.MainPage());
+            }
         }
 
         protected override void OnStart()

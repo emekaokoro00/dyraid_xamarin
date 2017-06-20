@@ -23,9 +23,11 @@ C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debu
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.Runtime.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.Resources.ResourceManager.dll
-C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.Diagnostics.Tools.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.Diagnostics.Tools.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\dyraid.Model.dll
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.Linq.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.Collections.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.Globalization.dll
@@ -37,7 +39,6 @@ C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debu
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.Dynamic.Runtime.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.Threading.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.Runtime.Extensions.dll
-C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.Linq.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.Net.Http.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll

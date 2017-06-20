@@ -8,16 +8,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace dyraid {
+namespace dyraid.Meal {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\emeka\\Source\\Repos\\dyraid_xamarin\\dyraid\\dyraid\\dyraid\\SettingsPage.xaml" +
-        "")]
-    public partial class SettingsPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\emeka\\Source\\Repos\\dyraid_xamarin\\dyraid\\dyraid\\dyraid\\Meal\\MealPage.xam" +
+        "l")]
+    public partial class MealPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SettingsPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MealPage));
         }
     }
 }

@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace dyraid
+namespace dyraid.Meal
 {
-    public partial class SettingsPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class MealPage : ContentPage
     {
-        public SettingsPage()
+        public MealPage()
         {
             InitializeComponent();
         }

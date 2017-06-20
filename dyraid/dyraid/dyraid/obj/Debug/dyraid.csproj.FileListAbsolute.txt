@@ -14,6 +14,10 @@ C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\obj\Debug\dyraid
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\obj\Debug\dyraid.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\obj\Debug\dyraid.pdb
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\obj\Debug\dyraid.SchedulePage.xaml.g.cs
-C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\obj\Debug\dyraid.SettingsPage.xaml.g.cs
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\obj\Debug\dyraid.TodayPage.xaml.g.cs
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\obj\Debug\dyraid.UpcomingAppointmentsPage.xaml.g.cs
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\obj\Debug\dyraid.Meal.MealPage.xaml.g.cs
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\obj\Debug\dyraid.LoginPage.xaml.g.cs
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\bin\Debug\dyraid.Model.dll
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\bin\Debug\dyraid.Model.pdb
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\obj\Debug\dyraid.UserAuth.SignupPage.xaml.g.cs
