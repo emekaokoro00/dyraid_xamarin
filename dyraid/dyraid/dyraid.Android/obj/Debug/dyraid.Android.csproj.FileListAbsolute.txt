@@ -50,3 +50,13 @@ C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\bin\Debu
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\bin\com.dyraid.dyraid.apk
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\bin\Debug\dyraid.Model.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\bin\Debug\dyraid.Model.pdb
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\bin\Debug\dyraid.Model.dll.mdb
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\dyraid.Model.dll.mdb
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\bin\Debug\dyraid.Android.dll.config
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\bin\Debug\dyraid.Utility.dll
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\bin\Debug\Newtonsoft.Json.dll
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\bin\Debug\dyraid.Utility.pdb
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\bin\Debug\dyraid.Utility.dll.config
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\bin\Debug\Newtonsoft.Json.xml
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\bin\Debug\dyraid.Utility.dll.mdb
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\dyraid.Utility.dll.mdb
