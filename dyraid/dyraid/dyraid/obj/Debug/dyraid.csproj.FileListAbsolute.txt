@@ -30,3 +30,4 @@ C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\bin\Debug\dyraid
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\bin\Debug\System.Net.Http.xml
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\bin\Debug\Newtonsoft.Json.xml
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid\obj\Debug\dyraid.HomePage.xaml.g.cs

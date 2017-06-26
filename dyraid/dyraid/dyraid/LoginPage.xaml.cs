@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Newtonsoft.Json;
 
 using dyraid.Model;
 using dyraid.UserAuth;
@@ -16,7 +17,9 @@ namespace dyraid
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
-        public string REST_URL = "http://192.168.56.56:8000/home/rest-auth/login/";
+        public static readonly string REST_URL = "http://192.168.56.56:8000/home/rest-auth/login/";
+        private static readonly string USERDETAILS_REQUEST_URL = "http://192.168.56.56:8000/home/rest-auth/user/";//Remove hardcode
+
         string res;
         
         public LoginPage()
@@ -31,18 +34,22 @@ namespace dyraid
 
         async void OnLoginButtonClicked(object sender, EventArgs e)
         {
-            var user = new User
-            {
-                Username = usernameEntry.Text,
-                Password = passwordEntry.Text
-            };
+            string username = usernameEntry.Text;
+            string password = passwordEntry.Text;
 
-            var isValid = await AreCredentialsCorrect(user);
-            if (isValid)
+            User user = null;
+            bool isValid = false;
+
+            Tuple<bool, User> cred = await AreCredentialsCorrect(username, password);
+            if (cred.Item1)
             {
                 App.IsUserLoggedIn = true;
-                Navigation.InsertPageBefore(new MainPage(), this);
+                var mainPage = new MainPage();
+                mainPage.BindingContext = cred.Item2;
+                Navigation.InsertPageBefore(mainPage, this);
                 await Navigation.PopAsync();
+
+                // await Navigation.PushAsync(mainPage);
             }
             else
             {
@@ -51,18 +58,19 @@ namespace dyraid
             }
         }
 
-        async Task<bool> AreCredentialsCorrect(User user)
+        async Task<Tuple<bool, User>> AreCredentialsCorrect(string username, string password)
         {
-            //return user.Username == "aa" && user.Password == "aa";
-
+            User user = null;
             // validate
             bool ans = false;
-            RestService restService = new RestService();
-            res = await restService.GetUserAsync(REST_URL, user.Username, user.Password);
+            // RestService restService = new RestService();
+            res = await RestService.Instance.AuthenticateUserAsync(REST_URL, username, password);
             if (res != null) {
+                var user_json = await RestService.Instance.GetUserDetailsAsync(USERDETAILS_REQUEST_URL);
+                user = JsonConvert.DeserializeObject<User>(user_json);
                 ans = true;
             }
-            return ans;
+            return Tuple.Create(ans, user);
         }
 
     }

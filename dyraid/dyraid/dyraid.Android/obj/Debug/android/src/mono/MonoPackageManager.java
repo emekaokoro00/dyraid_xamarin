@@ -114,8 +114,8 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
 		"dyraid.Model.dll",
-		"dyraid.Utility.dll",
 		"Newtonsoft.Json.dll",
+		"dyraid.Utility.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

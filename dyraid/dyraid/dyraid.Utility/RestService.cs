@@ -8,19 +8,24 @@ using Newtonsoft.Json;
 
 namespace dyraid.Utility
 {
-    public class RestService
+    public sealed class RestService
     {
         HttpClient client;
+        string auth_key;
 
-        public RestService()
+        private static readonly Lazy<RestService> lazy =
+            new Lazy<RestService>(() => new RestService());
+
+        public static RestService Instance { get { return lazy.Value; } }
+        
+        private RestService()
         {
             client = new HttpClient();
+            auth_key = null;
         }
 
-        // public async Task<string> GetUserAsync(string restUrl)
-        public async Task<string> GetUserAsync(string restUrl, string username, string password)
+        public async Task<string> AuthenticateUserAsync(string restUrl, string username, string password)
         {
-            string res = null;
             var uri = new Uri(string.Format(restUrl, string.Empty));
             
             var values = new Dictionary<string, string>();
@@ -35,11 +40,37 @@ namespace dyraid.Utility
                 {
                     var content = await response.Content.ReadAsStringAsync();
                     // res = JsonConvert.DeserializeObject<string>(content);
-                    res = (string)Newtonsoft.Json.Linq.JObject.Parse(content)["key"];
+                    auth_key = (string)Newtonsoft.Json.Linq.JObject.Parse(content)["key"];
                 }
             }
             catch (Exception ex)
             {    }
+
+            return auth_key;
+        }
+
+        public async Task<string> GetUserDetailsAsync(string restUrl)
+        {
+            string res = null;
+            var uri = new Uri(string.Format(restUrl, string.Empty));
+            
+            //ANOTHER  WAY
+            // HttpRequestMessage msg = new HttpRequestMessage(HttpMethod.Get, uri);
+            // msg.Headers.Add("X-AUTH", auth_key);
+            // var response = await client.SendAsync(msg);
+
+            client.DefaultRequestHeaders.TryAddWithoutValidation("X-AUTH‌​", auth_key);
+
+            try
+            {
+                var response = await client.GetAsync(uri);
+                if (response.IsSuccessStatusCode)
+                {
+                    res = await response.Content.ReadAsStringAsync();
+                }
+            }
+            catch (Exception ex)
+            { }
 
             return res;
         }
