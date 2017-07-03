@@ -1,0 +1,12 @@
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Abstractions\bin\Debug\dyraid.Abstractions.dll
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Abstractions\bin\Debug\dyraid.Abstractions.pdb
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Abstractions\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Abstractions\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Abstractions\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Abstractions\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Abstractions\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Abstractions\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Abstractions\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Abstractions\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Abstractions\obj\Debug\dyraid.Abstractions.dll
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Abstractions\obj\Debug\dyraid.Abstractions.pdb
