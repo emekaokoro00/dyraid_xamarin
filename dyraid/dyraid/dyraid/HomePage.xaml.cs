@@ -10,6 +10,7 @@ using Xamarin.Forms.Xaml;
 using dyraid.Model;
 using dyraid.UserAuth;
 using dyraid.Utility;
+using dyraid.ViewModel;
 
 namespace dyraid
 {
@@ -21,8 +22,6 @@ namespace dyraid
         public HomePage()
         {
             InitializeComponent();
-            // User user = (User)this.BindingContext;
-            // this.displayUserName.Text = user.FirstName;
         }
     }
 }

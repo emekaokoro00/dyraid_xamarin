@@ -8,6 +8,7 @@ using Xamarin.Forms.Xaml;
 using dyraid.Model;
 using dyraid.UserAuth;
 using dyraid.Utility;
+using dyraid.ViewModel;
 
 namespace dyraid
 {
@@ -17,6 +18,15 @@ namespace dyraid
         public MainPage()
         {
             InitializeComponent();
+            this.CurrentPage = Children[1];
+
+        }
+
+        public MainPage(HomePageViewModel bindingContextForHome)
+        {
+            InitializeComponent();
+            this.CurrentPage = Children[1];
+            this.CurrentPage.BindingContext = bindingContextForHome;
         }
     }
 }

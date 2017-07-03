@@ -7,6 +7,8 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
+using FFImageLoading.Forms.Droid;
+
 namespace dyraid.Droid
 {
     [Activity(Label = "dyraid", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -16,6 +18,8 @@ namespace dyraid.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
+
+            CachedImageRenderer.Init();
 
             base.OnCreate(bundle);
 

@@ -11,6 +11,7 @@ using Newtonsoft.Json;
 using dyraid.Model;
 using dyraid.UserAuth;
 using dyraid.Utility;
+using dyraid.ViewModel;
 
 namespace dyraid
 {
@@ -37,15 +38,19 @@ namespace dyraid
             string username = usernameEntry.Text;
             string password = passwordEntry.Text;
 
-            User user = null;
-            bool isValid = false;
-
             Tuple<bool, User> cred = await AreCredentialsCorrect(username, password);
             if (cred.Item1)
             {
                 App.IsUserLoggedIn = true;
-                var mainPage = new MainPage();
-                mainPage.BindingContext = cred.Item2;
+
+                User loggedInUser = (User)cred.Item2;
+                loggedInUser.PhotoUrl = "";
+                loggedInUser.Phone = "217-766-2888";
+                loggedInUser.Street = "ONE North";
+
+                HomePageViewModel homePageViewModel = new HomePageViewModel(loggedInUser);
+                var mainPage = new MainPage(homePageViewModel);
+                // mainPage.BindingContext = new HomePageViewModel((User)cred.Item2);
                 Navigation.InsertPageBefore(mainPage, this);
                 await Navigation.PopAsync();
 

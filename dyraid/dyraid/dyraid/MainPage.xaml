@@ -5,9 +5,10 @@
             xmlns:local_meal="clr-namespace:dyraid.Meal;assembly=dyraid">
     <local_meal:MealPage />
     <local:HomePage />
-    <NavigationPage Title="Today" Icon="icon.png">
+    <local:TodayPage />
+    <!--<NavigationPage Title="Today" Icon="icon.png">
         <x:Arguments>
             <local:TodayPage />
         </x:Arguments>
-    </NavigationPage>
+    </NavigationPage>-->
 </TabbedPage>

@@ -1,5 +1,10 @@
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\dyraid.Android.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\dyraid.dll
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\FFImageLoading.dll
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\FFImageLoading.Forms.dll
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\FFImageLoading.Forms.Droid.dll
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\FFImageLoading.Platform.dll
+C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\FFImageLoading.Transformations.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\FormsViewGroup.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Android\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll

@@ -20,4 +20,3 @@ C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Utility\bin\Debu
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Utility\obj\Debug\dyraid.Utility.csproj.App.config
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Utility\obj\Debug\dyraid.Utility.dll
 C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Utility\obj\Debug\dyraid.Utility.pdb
-C:\Users\emeka\Source\Repos\dyraid_xamarin\dyraid\dyraid\dyraid.Utility\obj\Debug\dyraid.Utility.csprojResolveAssemblyReference.cache

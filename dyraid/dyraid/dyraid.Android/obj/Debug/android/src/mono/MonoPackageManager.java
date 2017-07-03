@@ -100,6 +100,11 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "dyraid.Android.dll" comes first in this list. */
 		"dyraid.Android.dll",
 		"dyraid.dll",
+		"FFImageLoading.dll",
+		"FFImageLoading.Forms.dll",
+		"FFImageLoading.Forms.Droid.dll",
+		"FFImageLoading.Platform.dll",
+		"FFImageLoading.Transformations.dll",
 		"FormsViewGroup.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
@@ -114,7 +119,11 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
 		"dyraid.Model.dll",
+		"MvvmHelpers.dll",
+		"dyraid.Abstractions.dll",
 		"Newtonsoft.Json.dll",
+		"Microsoft.WindowsAzure.Mobile.dll",
+		"System.Net.Http.Primitives.dll",
 		"dyraid.Utility.dll",
 	};
 	public static final String[] Dependencies = new String[]{

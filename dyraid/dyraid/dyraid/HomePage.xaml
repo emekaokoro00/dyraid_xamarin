@@ -19,22 +19,20 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <AbsoluteLayout>
-            <StackLayout>
-                <Label Text="{Binding TheUser.Street}" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-                <Label Text="{Binding TheUser.City}" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-                <Label Text="{Binding TheUser.StatePostal}" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-            </StackLayout>
             <StackLayout Spacing="0" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1">
                 <ContentView Padding="10">
                     <StackLayout Orientation="Horizontal" Spacing="10">
-                        <!--<AbsoluteLayout>
-                            <ffimageloading:CachedImage x:Name="ProfilePhoto" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="90" HeightRequest="90" DownsampleToViewSize="true" Source="{Binding TheUser.PhotoUrl}" LoadingPlaceholder="icon.png">
+                        <AbsoluteLayout>
+                            <ffimageloading:CachedImage x:Name="ProfilePhoto" HorizontalOptions="Center" VerticalOptions="Center" 
+                        WidthRequest="90" HeightRequest="90" DownsampleToViewSize="true" 
+                        Source="un.png" LoadingPlaceholder="icon.png">
+                        <!--Source="{Binding TheUser.PhotoUrl}" LoadingPlaceholder="icon.png">-->
                                 <ffimageloading:CachedImage.Transformations>
                                     <fftransformations:CircleTransformation />
                                 </ffimageloading:CachedImage.Transformations>
                             </ffimageloading:CachedImage>
-                        </AbsoluteLayout>-->
-                        <!--<StackLayout Spacing="10">
+                        </AbsoluteLayout>
+                        <StackLayout Spacing="10">
                             <ContentView>
                                 <StackLayout Spacing="0">
                                     <Label Text="{Binding TheUser.Company}" />
@@ -80,7 +78,7 @@
                                     <Label Text="{Binding TheUser.Email}" FontSize="Micro" HeightRequest="20" LineBreakMode="TailTruncation" VerticalTextAlignment="Center" />
                                 </StackLayout>
                             </ContentView>
-                        </StackLayout>-->
+                        </StackLayout>
                     </StackLayout>
                 </ContentView>
                 <ContentView HeightRequest="1" BackgroundColor="Silver" />
