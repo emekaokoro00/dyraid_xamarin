@@ -19,17 +19,22 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <AbsoluteLayout>
+            <StackLayout>
+                <Label Text="{Binding TheUser.Street}" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                <Label Text="{Binding TheUser.City}" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                <Label Text="{Binding TheUser.StatePostal}" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            </StackLayout>
             <StackLayout Spacing="0" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1">
                 <ContentView Padding="10">
                     <StackLayout Orientation="Horizontal" Spacing="10">
-                        <AbsoluteLayout>
-                            <ffimageloading:CachedImage x:Name="ProfilePhoto" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="90" HeightRequest="90" DownsampleToViewSize="true" Source="{Binding TheUser.PhotoUrl}" LoadingPlaceholder="placeholderProfileImage.png">
+                        <!--<AbsoluteLayout>
+                            <ffimageloading:CachedImage x:Name="ProfilePhoto" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="90" HeightRequest="90" DownsampleToViewSize="true" Source="{Binding TheUser.PhotoUrl}" LoadingPlaceholder="icon.png">
                                 <ffimageloading:CachedImage.Transformations>
                                     <fftransformations:CircleTransformation />
                                 </ffimageloading:CachedImage.Transformations>
                             </ffimageloading:CachedImage>
-                        </AbsoluteLayout>
-                        <StackLayout Spacing="10">
+                        </AbsoluteLayout>-->
+                        <!--<StackLayout Spacing="10">
                             <ContentView>
                                 <StackLayout Spacing="0">
                                     <Label Text="{Binding TheUser.Company}" />
@@ -75,11 +80,11 @@
                                     <Label Text="{Binding TheUser.Email}" FontSize="Micro" HeightRequest="20" LineBreakMode="TailTruncation" VerticalTextAlignment="Center" />
                                 </StackLayout>
                             </ContentView>
-                        </StackLayout>
+                        </StackLayout>-->
                     </StackLayout>
                 </ContentView>
                 <ContentView HeightRequest="1" BackgroundColor="Silver" />
-                <AbsoluteLayout VerticalOptions="FillAndExpand">
+                <!--<AbsoluteLayout VerticalOptions="FillAndExpand">
                     <ContentView Padding="50" VerticalOptions="Center" IsVisible="{Binding HasAddress, Converter={StaticResource BooleanInverter}}" IsEnabled="{Binding HasAddress, Converter={StaticResource BooleanInverter}}" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 0, 1.0, 1.0">
                         <StackLayout Spacing="20">
                             <Label Text="No map is available because this person does not have an address." VerticalTextAlignment="Center" />
@@ -90,7 +95,7 @@
                         <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional" AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.2, AutoSize" />
                         <maps:Map x:Name="AcquaintanceMap" IsVisible="false" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 0, 1.0, 1.0" />
                     </AbsoluteLayout>
-                </AbsoluteLayout>
+                </AbsoluteLayout>-->
             </StackLayout>
         </AbsoluteLayout>
     </ContentPage.Content>
